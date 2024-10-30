@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		
-		String fileTest = "task02\\TTT\\board4.txt";
+		String fileTest = args[0];
 		
 		//filereaders setup
 		File file = new File(fileTest);
