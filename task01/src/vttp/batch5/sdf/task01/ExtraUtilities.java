@@ -2,6 +2,8 @@ package vttp.batch5.sdf.task01;
 
 public class ExtraUtilities {
 
+	//Extra utilities file for converting weather, position, and holiday values to their expected string output.
+
 	public static final String[] WEATHER = { "Clear, Few clouds, Partly cloudy, Partly cloudy", 
     "Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist",
     "Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds",

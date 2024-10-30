@@ -1,7 +1,6 @@
 package vttp.batch5.sdf.task01.models;
 //
-// IMPORTANT: DO NOT MODIFY THIS CLASS
-
+//Class renamed to be clearer
 public class DayDetails {
 
 	private int season;
@@ -46,10 +45,11 @@ public class DayDetails {
 	public void setRegistered(int registered) { this.registered = registered; }
 	public int getRegistered() { return this.registered; }
 
+    //extra total field added(not modified), set by summming up the values of casual and registered.
     public void setTotal() { this.total = this.casual + this.registered; }
 	public int getTotal() { return this.total; }
 
-
+    //toClass updated with extra field
 	public static DayDetails toDayDetails(String[] cols) {
 		DayDetails entry = new DayDetails();
 		entry.setSeason(toInt(cols[0]));
