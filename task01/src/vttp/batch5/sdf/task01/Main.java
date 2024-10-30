@@ -16,10 +16,10 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		String fileTest = "task01\\day.csv";
+		String filePath = "C:\\Users\\timot\\Documents\\SDF_assessment\\task01\\day.csv";
 
 		// File readers setup
-        File file = new File(fileTest);		
+        File file = new File(filePath);		
 		FileReader fr = new FileReader(file); 
         BufferedReader br = new BufferedReader(fr);
 		
