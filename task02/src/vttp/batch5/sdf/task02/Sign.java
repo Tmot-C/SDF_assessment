@@ -1,7 +1,9 @@
 package vttp.batch5.sdf.task02;
 
 public enum Sign {
-
+    
+    /*enum class, technically not necessary for this implementation, but used as good practice
+     since tic tac toe only involves 3 values, and the implementation can theoretically be expanded on in the future.*/
     X('X'), O('O'), BLANK('.');
 
     private final char sign;
